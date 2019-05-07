@@ -215,6 +215,7 @@ public class MainActivity extends AppCompatActivity {
         return bitmap;
     }
 
+    //Aún en proceso de desarrollo.
     public void EliminarFoto(View view){
 
         //Con el nombre de tu BDD.
@@ -225,6 +226,6 @@ public class MainActivity extends AppCompatActivity {
 
         String id_Delete = ID.getText().toString();
         String des_Delete = Des.getText().toString();
-         //¿Cómo vamos a tomar el objeto Bye?
+         
     }
 }
